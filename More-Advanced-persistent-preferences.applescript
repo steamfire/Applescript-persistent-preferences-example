@@ -9,6 +9,7 @@
 -- Stores a preferences script in ~/Library/Preferences/pdf-snapshot-automator-applet-preferences.scpt
 -- 		To change the URL, or to add one if you declined it previously,
 -- 		you must delete that file.
+-- the return value will be set to -128 if the user presses cancel during the initial URL question dialog box.
 
 -- This using terms thing is needed so that this will work in Automator.
 using terms from application "Finder"
@@ -50,8 +51,6 @@ using terms from application "Finder"
 			set myPreferences's URLDesired to UserResponse
 			
 		end try
-		
-		
 		
 		
 		-- Save the variable to the preferences file (script) 
