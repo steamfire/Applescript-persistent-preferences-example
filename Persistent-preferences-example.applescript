@@ -7,6 +7,7 @@
 -- a URL that you'd like to open at the end.  Intended to open your 
 -- twitter or buffer.com or whatever.
 -- Stores a preferences script in ~/Library/Preferences/pdf-snapshot-automator-applet-preferences.scpt
+-- If used in Automator, it stores it in ~/Library/Classic/pdf-snapshot-automator-applet-preferences.scpt
 -- 		To change the URL, or to add one if you declined it previously,
 -- 		you must delete that file.
 
